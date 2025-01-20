@@ -14,9 +14,6 @@ apt install sudo nano adduser -y
 adduser dani
 exit
 pd login debian
- wget --tries=5 --retry-connrefused -O ${current_path}/ https://raw.githubusercontent.com/sabamdarif/termux-desktop/main/distro-container-setup
-			if [[ ("$1" == "--change" || "$1" == "-c") && ("$2" == "distro" || "$2" == "pd") ]]; then
-			sed -i 's/\(call_from_change_d="\)[^"]*/\1y/' "${current_path}/distro-container-setup"
-			fi
-            chmod +x ${current_path}/distro-container-setup
-            . ${current_path}/distro-container-setup
+wget https://raw.githubusercontent.com/sabamdarif/termux-desktop/main/distro-container-setup
+chmod +x distro-container-setup
+distro-container-setup
