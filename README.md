@@ -1,6 +1,8 @@
 # DEBIAN-TERMUX-DESKTOP
 EASY RUN 
 
+# Install
+curl -LF 
 
 #xfce4
 ```
