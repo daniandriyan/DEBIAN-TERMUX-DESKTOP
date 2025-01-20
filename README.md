@@ -8,8 +8,14 @@ curl -LF https://github.com/daniandriyan/DEBIAN-TERMUX-DESKTOP/blob/main/install
 # next step
 ```
 nano /etc/sudoers
+```
+# add text sudoers
+```
 dani ALL=(ALL:ALL) ALL
 ```
+pd login debian --user dani
+```
+
 
 #xfce4
 ```
