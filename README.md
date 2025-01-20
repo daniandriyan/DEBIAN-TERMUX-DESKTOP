@@ -2,7 +2,14 @@
 EASY RUN 
 
 # Install
-curl -LF 
+```
+curl -LF https://github.com/daniandriyan/DEBIAN-TERMUX-DESKTOP/blob/main/install.sh
+```
+nano /etc/sudoers
+
+# Add the following line to the file
+dani ALL=(ALL:ALL) ALL
+```
 
 #xfce4
 ```
