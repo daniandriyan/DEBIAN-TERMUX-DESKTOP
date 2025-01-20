@@ -3,7 +3,7 @@ EASY RUN
 
 # Install
 ```
-curl -LF https://github.com/daniandriyan/DEBIAN-TERMUX-DESKTOP/blob/main/install.sh
+curl -LF https://github.com/daniandriyan/DEBIAN-TERMUX-DESKTOP/blob/main/install
 ```
 # next step
 ```
@@ -18,7 +18,7 @@ pd login debian --user dani
 apt install xfce4
 
 
-#xfce4
+# xfce4
 ```
 wget https://github.com/daniandriyan/DEBIAN-TERMUX-DESKTOP/blob/main/starxfce4.sh
 chmod +x startxfce.sh
