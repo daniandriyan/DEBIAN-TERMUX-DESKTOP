@@ -5,7 +5,8 @@ EASY RUN
 ```
 curl -LF https://github.com/daniandriyan/DEBIAN-TERMUX-DESKTOP/blob/main/install.sh
 ```
-# Add the following line to the file
+# next step
+```
 nano /etc/sudoers
 dani ALL=(ALL:ALL) ALL
 ```
