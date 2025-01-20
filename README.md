@@ -13,8 +13,9 @@ nano /etc/sudoers
 ```
 dani ALL=(ALL:ALL) ALL
 ```
+
 pd login debian --user dani
-```
+apt install xfce4
 
 
 #xfce4
