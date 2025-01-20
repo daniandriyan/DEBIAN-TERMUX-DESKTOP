@@ -12,3 +12,6 @@ pd login debian
 apt update -y
 apt install sudo nano adduser -y
 adduser dani
+exit
+pd login debian
+curl -LF https://github.com/daniandriyan/DEBIAN-TERMUX-DESKTOP/blob/main/distro-container-setup
