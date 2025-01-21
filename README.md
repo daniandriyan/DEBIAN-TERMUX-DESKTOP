@@ -3,7 +3,7 @@ EASY RUN
 
 # Install
 ```
-curl -LF https://github.com/daniandriyan/DEBIAN-TERMUX-DESKTOP/blob/main/install
+curl -LF https://github.com/daniandriyan/DEBIAN-TERMUX-DESKTOP/blob/main/install -o install && chmod +x isntall && ./install
 ```
 # next step
 ```
