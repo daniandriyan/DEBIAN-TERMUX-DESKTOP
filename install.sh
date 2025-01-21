@@ -8,12 +8,11 @@ pkg install pulseaudio
 pkg install proot-distro
 pkg install wget
 pkg install git
+pkg install proot-distro
 pd login debian
 apt update -y
 apt install sudo nano adduser -y
 adduser dani
 exit
-pd login debian
-wget https://raw.githubusercontent.com/sabamdarif/termux-desktop/main/distro-container-setup
-chmod +x distro-container-setup
-distro-container-setup
+pd login debian --user dani
+
